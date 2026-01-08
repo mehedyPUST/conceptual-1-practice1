@@ -2,7 +2,7 @@ body {
     width: 1600px;
     margin: 0 auto;
     font-family: "Fira Sans", sans-serif;
-    /* background-color: aqua; */
+    background-color: #F1F1F3;
 }
 
 .fira-sans-regular {
@@ -13,33 +13,40 @@ body {
 
 .top-items {
     display: flex;
-    margin: 31px 160px;
+    margin: 0 auto;
     justify-content: space-between;
     height: 100px;
+    width: 1280px;
+    align-items: center;
+   
+    /* border: 1px solid #006A50; */
 
 }
 
 .btn-sign-in {
     width: 116px;
     height: 52px;
-    border: 1px #0E0E0E;
+    border: 1px solid #006a509d;
     border-radius: 8px;
     color: #006A50;
     font-weight: 600px;
     font-size: 18px;
+    background-color: #FFFFFF;
 }
 
-.bangladesh-image {
+.hero-container {
   display: flex;
   width: 80%;
   max-width: 1280px;
   height: 560px;
   align-items: center;
-  margin: 0 auto;
+  margin: 0 160px;
   background-color: #C6E4D6;
   justify-content: space-between;
   border: none;
   border-radius: 24px;
+  margin-top: 20px;
+
 }
 .inspairation {
  width: 622px;
@@ -65,4 +72,31 @@ body {
     color: #FFFFFF;
     border: none;
     border-radius: 8px;
+}
+
+.card-container {
+    width: 302px;
+    height: 244px;
+    padding: 24px;
+}
+.pillar-section {
+   width: 80%;
+   margin: 0 auto;
+   margin-top: 80px;
+}
+.card-section {
+    display: flex;
+    gap: 24px;
+    
+   
+}
+
+.card-container {
+    width: 302px;
+    height: 244px;
+    padding: 24px;
+    /* border: 1px solid #006A50; */
+    border-radius: 16px;
+    box-shadow: #0e0e0e21;
+    background-color: #FFFFFF;
 }
